@@ -4,7 +4,3 @@ module "s3-bucket" {
   # insert required variables here
   bucket_prefix = "juan-maraboli"
 }
-credentials "app.terraform.io" {
-    # valid user API token:
-    token = "xxxxxx.atlasv1.zzzzzzzzzzzzz"
-  }
